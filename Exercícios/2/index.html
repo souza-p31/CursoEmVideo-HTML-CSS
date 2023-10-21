@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parágrafos</title>
+    </head>
+    <body>
+        <h1>Parágrafos e quebras de linha</h1>
+        <hr>
+        <p>Você pode escrever
+            um parágrafo de
+            qualquer jeito
+            basta colocar tudo
+            no meio do par de tags &lt;p&gt; e &lt;/p&gt;!
+        </p>
+        <p>Se precisar quebrar
+            o texto em algum lugar
+        específico <br> Como esse,
+        você pode usar a tag &lt;br&gt;.<!-- Tag de quebra de linha -->
+        </p> <!-- Se colocar <> o item vai virar tag, para evitar isso podemos usar &lt; e &gt; que significam less than (menor que) e grater than (maior que) para aparecerem os <>.
+        Uma gambiarra para pular várias linhas é usar várias vezes a tag br, mas isso está errado e em códigos profissionais 
+    Não deve ser feito! Deve ser ajustado no CSS.-->
+            <p>Vamos adicionar alguns símbolos especiais:
+                &reg;
+                &copy;
+                &trade;
+                &euro;
+                &pound;
+                &yen;
+                &cent;
+                &delta;
+                &Delta; 
+                &uparrow;
+                &uarr; <!--Entre outros...-->
+            </p>
+            <p>Vamos adicionar alguns emoji:
+                <!--Pela emojipedia podemos pegar alguns
+                e o indicado é adicionar atraves dos codepoints
+            
+                 Codepoints
+                😊 U+1F60A-->
+                
+                &#x1F60A; <!--Dessa forma &#x e o código hex do emoji. Pode ser que alguns não funcionem-->
+                &#x1f913;
+                &#128512;
+                &#x1F638;
+                &#128540;
+            </p>
+    </body>
+</html>

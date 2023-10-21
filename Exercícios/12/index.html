@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+
+    <video src="videos/pexels-levi-vaagenes-11502960 (720p).mp4" height="500px" controls></video>
+
+    <video height="500px" controls poster="imagens/pexels-chevanon-photography-312418.jpg">
+        <source src="videos/pexels-levi-vaagenes-11502960 (720p).mp4" type="video/mp4">
+        <source src="videos/pexels-levi-vaagenes-11502960 (720p).ogv" type="video/ogg">
+        <source src="videos/pexels-levi-vaagenes-11502960 (720p).webm" type="video/webm">
+        <p>Seu navegador não é compativel com o video</p>
+    </video>
+
+    <h1>Inserindo videos do YouYube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/7636697?h=ad4069f09e" width="500" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/7636697">Animation Reel</a> from <a href="https://vimeo.com/user2642642">Andrew Coats</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>
